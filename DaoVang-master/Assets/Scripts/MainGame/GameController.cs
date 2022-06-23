@@ -155,6 +155,9 @@ public class GameController : MonoBehaviour
     public void Campaign()
     {
         SceneManager.LoadScene("ChooseMap");
+        // Luu character, machine
+        PlayerPrefs.SetInt("Character", numberChar);
+        PlayerPrefs.SetInt("Machine", numberMachine);
     }
     public void Quit()
     {

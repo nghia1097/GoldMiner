@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class ClickButton : MonoBehaviour
 {
+    public Transform PosChar, PosMachine;
+    public GameObject Char_Common, Char_Rare, Char_Epic, Char_Lengend;
+    public GameObject Ma_Common, Ma_Rare, Ma_Epic, Ma_Lengend;
+    int numberChar, numberMachine;
     AudioSource audioSource;
     public AudioClip soundBackground;
     bool isSetting = false;
@@ -26,6 +30,28 @@ public class ClickButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
+        // lay character, machine
+        numberChar = PlayerPrefs.GetInt("Character");
+        numberMachine = PlayerPrefs.GetInt("Machine");
+        // Tao character, machine
+        switch(numberChar)
+        {
+            case 1: Instantiate(Char_Common, PosChar.position, Quaternion.identity); break;
+            case 2: Instantiate(Char_Rare, PosChar.position, Quaternion.identity); break;
+            case 3: Instantiate(Char_Epic, PosChar.position, Quaternion.identity); break;
+            case 4: Instantiate(Char_Lengend, PosChar.position, Quaternion.identity); break;
+        }
+
+        switch (numberMachine)
+        {
+            case 1: Instantiate(Ma_Common, PosMachine.position, Quaternion.identity); break;
+            case 2: Instantiate(Ma_Rare, PosMachine.position, Quaternion.identity); break;
+            case 3: Instantiate(Ma_Epic, PosMachine.position, Quaternion.identity); break;
+            case 4: Instantiate(Ma_Lengend, PosMachine.position, Quaternion.identity); break;
+        }
+
+
         // lay gia tri suc manh ban dau
         power = GameObject.Find("luoiCau").GetComponent<LuoiCauScript>().speed;
         audioSource = GetComponent<AudioSource>();

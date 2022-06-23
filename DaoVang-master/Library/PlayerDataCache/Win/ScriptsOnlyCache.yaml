@@ -49,7 +49,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11748}
+      Script: {instanceID: 11746}
     - Class: 114
       Script: {instanceID: 11928}
     - Class: 114
@@ -59,11 +59,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12872}
     - Class: 114
-      Script: {instanceID: 13406}
+      Script: {instanceID: 13346}
     - Class: 114
-      Script: {instanceID: 13794}
+      Script: {instanceID: 13410}
     - Class: 114
-      Script: {instanceID: 24812}
+      Script: {instanceID: 13802}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -108,7 +108,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11748}
+      Script: {instanceID: 11746}
     - Class: 114
       Script: {instanceID: 11912}
     - Class: 114
@@ -130,13 +130,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12872}
     - Class: 114
-      Script: {instanceID: 13406}
+      Script: {instanceID: 13410}
     - Class: 114
-      Script: {instanceID: 13434}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13510}
+      Script: {instanceID: 13518}
     - Class: 114
-      Script: {instanceID: 13794}
+      Script: {instanceID: 13802}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -179,7 +179,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11748}
+      Script: {instanceID: 11746}
+    - Class: 114
+      Script: {instanceID: 11878}
     - Class: 114
       Script: {instanceID: 11928}
     - Class: 114
@@ -189,15 +191,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12872}
     - Class: 114
-      Script: {instanceID: 13406}
+      Script: {instanceID: 13244}
     - Class: 114
-      Script: {instanceID: 13794}
+      Script: {instanceID: 13410}
     - Class: 114
-      Script: {instanceID: 17816}
+      Script: {instanceID: 13472}
     - Class: 114
-      Script: {instanceID: 17826}
-    - Class: 114
-      Script: {instanceID: 26348}
+      Script: {instanceID: 13802}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -234,7 +234,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11748}
+      Script: {instanceID: 11746}
     - Class: 114
       Script: {instanceID: 11928}
     - Class: 114
@@ -248,15 +248,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12872}
     - Class: 114
-      Script: {instanceID: 13406}
+      Script: {instanceID: 13410}
     - Class: 114
       Script: {instanceID: 13434}
     - Class: 114
-      Script: {instanceID: 13794}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 34378}
+      Script: {instanceID: 13802}
     - Class: 114
-      Script: {instanceID: 34438}
+      Script: {instanceID: 13878}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -314,6 +314,12 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ListLevel
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -326,7 +332,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 33453f3122287437e83176d4d1f601cf
+      Hash: 8947f4a85ed027477b0362ca902c8350
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ClickButton
@@ -608,10 +614,22 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 7d1243e44f7bfaa161fea0d41405b656
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: lr_Testing
+  - hash:
+      serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChooseMap
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -632,10 +650,22 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 84fd3f1a15d58a688d48bf208c49cf6f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowInfo_Ma
+  - hash:
+      serializedVersion: 2
       Hash: c25a1e52ce5e54b618d1938d6571a1f9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InfoMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: lr_Controller
   - hash:
       serializedVersion: 2
       Hash: 4cc2f7e3f52c4c906b680d15af0e77bd
@@ -752,50 +782,20 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: lr_Controller
-  - hash:
-      serializedVersion: 2
-      Hash: 7d1243e44f7bfaa161fea0d41405b656
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: lr_Testing
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ChooseMap
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ListLevel
-  - hash:
-      serializedVersion: 2
       Hash: f45bf1c58ee42643880c84f0431bfd3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowInfo
   - hash:
       serializedVersion: 2
-      Hash: 84fd3f1a15d58a688d48bf208c49cf6f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShowInfo_Ma
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
   platform: 5
   scenePathNames:
   - Assets/Scenes/MenuGame.unity
   - Assets/Scenes/ChooseMap.unity
   - Assets/Scenes/GamePlay.unity
   - Assets/Scenes/ListLevel.unity
-  playerPath: D:/Download/DaoVang-master/FileBuild/DaoVang.exe
+  playerPath: D:/Github/GoldMiner/DaoVang-master/FileBuild/DaoVang.exe
